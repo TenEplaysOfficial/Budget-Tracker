@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Budget Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="main-container">
+        <div class="input-fields">
+          <h1>Budget Tracker</h1>
+          <p>Add A New Item:</p>
+          <div class="input-val">
+            <label for="name"
+              >Name:
+              <input
+                type="text"
+                id="name"
+                placeholder="Where was the expende made?"
+              />
+            </label>
+            <div class="dateamt">
+              <label for="date"
+                >Date:
+                <input type="date" id="date" />
+              </label>
+              <label for="amount"
+                >Amount:
+                <input type="number" id="amount" />
+              </label>
+            </div>
+            <button id="btn">Add Expense</button>
+          </div>
+        </div>
+        <div class="expense-data"></div>
+      </div>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>
